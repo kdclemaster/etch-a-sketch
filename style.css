@@ -3,3 +3,32 @@ body {
 	background: radial-gradient(circle, rgba(255,0,0,1) 77%, rgba(255,255,255,1) 100%);
 
 }
+
+input {
+	border-radius: 5px;
+	border: 3px solid black;
+	background: white;
+	font: italic bold 3em sans-serif;
+	display: block;
+	margin: auto;
+	box-shadow: 10px 10px 0 0;
+}
+input:active {
+	transform:translateY(4px);
+	background: #A0AAAD;
+}
+input:focus{
+	outline:none;
+}
+#board{
+	margin: auto;
+	height: 80%;
+	width: 80%;
+	padding-top: 20px;
+	display: grid;
+}
+
+.grid-square{
+	border:1px solid black;
+	background-color: grey;
+}
